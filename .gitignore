@@ -1,0 +1,20 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python cache and virtual envs
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+
+# Streamlit / local app artifacts
+.streamlit/
+faiss_index/
+*.pkl
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
